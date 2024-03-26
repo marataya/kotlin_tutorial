@@ -1,8 +1,13 @@
-import org.example.initSealedState
+import org.example.StringResult
+import org.example.getString
+import kotlin.random.Random
+
 
 
 fun main() {
-    initSealedState()
-
+    when (val result = getString()) {
+        is StringResult.Error -> println("There was an error")
+        is StringResult.Success -> println(result.value)
+    }
 }
 
