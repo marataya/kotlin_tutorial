@@ -1,4 +1,4 @@
-package org.example
+package org.android
 
 class Person(val name: String, val age: Int, val hobby: String?, val referrer: Person?) {
     fun showProfile() {

@@ -1,5 +1,4 @@
-package org.example
-
+package org.android
 val trick = {
     println("No treats!")
 }

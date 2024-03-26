@@ -1,4 +1,4 @@
-package org.example
+package org.android
 
 open class Phone(var isScreenLightOn: Boolean = false){
     open fun switchOn() {
