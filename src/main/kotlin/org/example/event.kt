@@ -32,4 +32,12 @@ fun main() {
 
 
     println("Duration of first event of the day: ${events[0].durationOfEvent}")
+
+    val colors = listOf("Red", "Green", "Blue")
+
+
+    println(colors[2])
+
+    println(colors.get(2))
+
 }
