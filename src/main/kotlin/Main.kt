@@ -1,11 +1,12 @@
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import org.example.*
-import org.example.org.example.SearchController
-import kotlin.random.Random
 
+fun main() : Unit = runBlocking {
+    launch {
+        println("Hello coroutines")
+    }
 
-
-
-fun main() {
-    printListUtils()
 }
 
